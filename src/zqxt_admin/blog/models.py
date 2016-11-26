@@ -26,3 +26,6 @@ class Person(models.Model):
     my_property.short_description = "Full name of the person"
 
     full_name = property(my_property)
+class cl(model.Model):
+    cl_name = models.CharField(max_length=30)
+    cl_num = models.ChaarField(max_lenth=30)
